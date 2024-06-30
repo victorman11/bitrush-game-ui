@@ -1,0 +1,4 @@
+const TABLET_WIDTH = 1024
+const MOBILE_WIDTH = 768
+
+export { TABLET_WIDTH, MOBILE_WIDTH }

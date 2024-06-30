@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 74,
+      "type": "WITHDRAW",
+      "address": "adress_here",
+      "asset": {
+        "converted": { "usdc": 369.25 },
+        "amount": { "btc": 0.089 }
+      },
+      "status": "failed",
+      "createdAt": "2024-02-26T18:10:58.452Z",
+      "updatedAt": "2024-02-26T18:25:58.519Z"
+    },
+    {
+      "id": 76,
+      "type": "WITHDRAW",
+      "address": "adress_here",
+      "asset": {
+        "converted": { "usdc": 369.25 },
+        "amount": { "btc": 0.089 }
+      },
+      "status": "pending",
+      "createdAt": "2024-02-26T18:10:58.452Z",
+      "updatedAt": "2024-02-26T18:25:58.519Z"
+    },
+    {
+      "id": 77,
+      "type": "WITHDRAW",
+      "address": "adress_here",
+      "asset": {
+        "converted": { "usdc": 369.25 },
+        "amount": { "btc": 0.089 }
+      },
+      "status": "swapping",
+      "createdAt": "2024-02-26T18:10:58.452Z",
+      "updatedAt": "2024-02-26T18:25:58.519Z"
+    },
+    {
+      "id": 78,
+      "type": "WITHDRAW",
+      "address": "adress_here",
+      "asset": {
+        "converted": { "usdc": 369.25 },
+        "amount": { "btc": 0.089 }
+      },
+      "status": "completed",
+      "createdAt": "2024-02-26T18:10:58.452Z",
+      "updatedAt": "2024-02-26T18:25:58.519Z"
+    },
+    {
+      "id": 79,
+      "type": "WITHDRAW",
+      "address": "adress_here",
+      "asset": {
+        "converted": { "usdc": 369.25 },
+        "amount": { "usdc": 369.25 }
+      },
+      "status": "completed",
+      "createdAt": "2024-02-26T18:10:58.452Z",
+      "updatedAt": "2024-02-26T18:25:58.519Z"
+    }
+  ]
+}

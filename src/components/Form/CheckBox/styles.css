@@ -1,0 +1,32 @@
+.custom-checkbox {
+  padding-left: 35px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-checkbox .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 8px;
+  height: 10px;
+  border: solid #0696ff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

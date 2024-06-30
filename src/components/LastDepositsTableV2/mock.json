@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": "a4d332a5-e929-4ca1-8f04-d62bae493b2e",
+      "type": "deposit",
+      "address": "c95808e50da189a101c511d5def76971",
+      "transactionHash": "62a0d05b7de6b4e483cf4f019ff8859d",
+      "currency": "eth",
+      "asset": {
+        "converted": {
+          "usdc": "0"
+        },
+        "amount": {
+          "eth": "0.1"
+        }
+      },
+      "wallet": {
+        "address": "0x3888e02d7c2a99994080b219a5993ec940a38ceb",
+        "type": "hot_wallet"
+      },
+      "status": "pending",
+      "createdAt": "2024-04-04T18:27:49.813Z"
+    }
+  ]
+}

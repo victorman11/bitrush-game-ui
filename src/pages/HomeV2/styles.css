@@ -1,0 +1,4 @@
+.item {
+  /* width: calc(50vw - 1rem); */
+  height: calc(50vh - 5vh);
+}

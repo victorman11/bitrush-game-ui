@@ -1,0 +1,13 @@
+/* td:has(div[role="gridcell"]:empty) {
+  display: none !important;
+}
+
+.rdp-tbody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rdp-tbody tr {
+  flex: 1;
+} */

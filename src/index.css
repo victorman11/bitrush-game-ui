@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+:root {
+  background-color: #0f0f15;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  margin-right: 5px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: #0000;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #011e33;
+  border-radius: 3px;
+  border: 1px solid #045a99;
+}
+
+/* GRID AREA */
+.header-area {
+  grid-area: header-area
+}
+
+.game-area {
+  grid-area: game-area
+}
+
+.bet-area {
+  grid-area: bet-area
+}
+
+.activity-area {
+  grid-area: activity-area
+}
+
+.chat-area {
+  grid-area: chat-area
+}
